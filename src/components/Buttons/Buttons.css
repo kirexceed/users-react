@@ -1,0 +1,26 @@
+.button-delete{
+    position: absolute;
+    right: 16px;
+    top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.button-delete:hover{
+    color: darkgray;
+}
+
+.refresh-button{
+    border: none;
+    padding: 1em;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+.refresh-button:hover{
+    background: rgb(207, 207, 207);
+}

@@ -1,0 +1,45 @@
+.data-container{
+    margin: 0 auto;
+    padding: 50px 100px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-filters{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.name-filters p{
+    font-size: 14px;
+}
+
+.name-filters p span{
+    color: rgb(105, 136, 146);
+}
+
+.name-filters--buttons{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+.button-filterby--name{
+    width: fit-content;
+    padding: .5em;
+    border-radius: 50px;
+    border: 1px solid lightblue;
+    background: none;
+    color: rgb(105, 136, 146);
+    cursor: pointer;
+}
+
+.button-filterby--name:hover{
+    background: rgba(105, 136, 146,.1);
+}
+
+.button-filterby--name.active {
+    border: none;
+    background: rgb(105, 136, 146);
+    color: white;
+}
