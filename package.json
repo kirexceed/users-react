@@ -10,6 +10,7 @@
     "react-dom": "^17.0.2",
     "react-query": "^3.34.7",
     "react-scripts": "5.0.0",
+    "test-lib-eda-kuda": "^0.1.5",
     "web-vitals": "^2.1.3"
   },
   "scripts": {
